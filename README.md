@@ -1,4 +1,4 @@
-# FizzBuzz with Tests
+# Ruby FizzBuzz with Tests
 
 ## My Process
 - Firstly, I began to write each test and pass the test with a simple solution.
