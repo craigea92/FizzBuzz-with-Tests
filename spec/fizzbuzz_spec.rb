@@ -13,4 +13,8 @@ describe 'fizzbuzz' do
   it 'returns "FizzBuzz" when passed a multiple of 3 & 5' do
     expect(fizzbuzz(15)).to eq "FizzBuzz"
   end
+
+  it 'returns "Not divisible by 3 and/or 5" when passed 4' do
+    expect(fizzbuzz(4)).to eq "Not divisible by 3 and/or 5"
+  end
 end

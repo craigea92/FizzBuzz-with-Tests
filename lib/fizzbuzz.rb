@@ -6,6 +6,8 @@ def fizzbuzz(number)
   elsif number % 5 == 0
     "Buzz"
   else
-    number
+    "Not divisible by 3 and/or 5"
   end
 end
+
+(1..100).each { |number| puts "#{number} --> #{fizzbuzz(number)}"}
